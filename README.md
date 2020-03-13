@@ -14,4 +14,4 @@ PATH_TO_PUBLIC_FOLDER='[PATH_TO_PUBLIC_FOLDER]'
 
 # Add the following to ecosystem.config.js
 
-exports.apps = [{ name: [NAME_OF_PM2_SERVICE], script: 'app.js' }]
+exports.apps = [{ name: [NAME_OF_PM2_SERVICE], script: './app.js' }]
