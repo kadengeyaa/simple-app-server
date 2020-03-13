@@ -22,7 +22,9 @@ function serve() {
   );
 
   app.use("*", (req, res) =>
-    res.sendFile(path.resolve(process.env.PATH_TO_PUBLIC_FOLDER))
+    res.sendFile(
+      path.resolve(`${process.env.PATH_TO_PUBLIC_FOLDER}/index.html`)
+    )
   );
 
   const server = http.createServer(app);
