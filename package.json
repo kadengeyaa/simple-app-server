@@ -1,6 +1,6 @@
 {
   "name": "simple-app-server",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Simple app server for launching vue, react and other websites to production",
   "main": "app.js",
   "repository": "git@github.com:kadengeyaa/simple-app-server.git",
@@ -14,7 +14,7 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "express-static-gzip": "^2.0.6",
-    "morgan": "^1.9.1",
-    "nodemon": "^2.0.2"
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4"
   }
 }
