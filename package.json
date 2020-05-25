@@ -1,6 +1,6 @@
 {
   "name": "simple-app-server",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Simple app server for launching vue, react and other websites to production",
   "main": "app.js",
   "repository": "git@github.com:kadengeyaa/simple-app-server.git",
